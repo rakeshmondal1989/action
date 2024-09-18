@@ -1,0 +1,33 @@
+cd d:
+cd learning
+cd python
+cd git-project
+mkdir "name"(It will create a folder in that name)
+touche "file.exe" (A new empty file will be created)--for ex. test.txt, test.py
+git init(for initializing with git and results in creation of git repository)
+git status(shows if any changes made to any files within the directory)
+git config user.email payeltarafdar51@gmail.com(User's email configuration is required)
+git config user.emailname Rakesh Mondal (User's name configuration is required)
+git add . (adding every file to git repository)
+git add file name (e.g. test.csv)
+git rm file name(e.g test.csv)
+git commit -m "commit message"(Commit must be done everytime an operation is executed such as adding, deleting, updating. Please Write a commit message)
+cd ..(It moves user out of current directory stepwise,the current directory is git-project; using command cd .. , we exited from git-project and reside in 
+python, again using command cd .. we exited from pyhton and positioned in learning directory)
+hp@DESKTOP-MI58LRL MINGW64 /d/learning/python/git-project (master)
+$ cd ..
+hp@DESKTOP-MI58LRL MINGW64 /d/learning/python
+$ cd ..
+hp@DESKTOP-MI58LRL MINGW64 /d/learning)
+
+
+
+Branching
+In Git, a branch is a new/separate version of the main repository.
+In general git branch starts with master by default. If we want to create a new branch and work such as create new file, 
+update, commit etc, following commands should be followed.
+
+git branch branchname(It creates new branch. e.g. git branch new_login)
+git checkout branchname(It makes you enter branch. e.g. git checkout new_login)
+git merge branchname(It merges current branch where this command is written with another created branch. e.g. git merge new_login. It essentially merges master branch
+with new_login if current branch is master and results in availability of all file of both branches on current branch)
